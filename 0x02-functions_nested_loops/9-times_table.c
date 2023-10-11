@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * time_tables - print the times table
- * Return: Always 0
+ * time_tables - prints 9 times table
+ * Return: 0
  */
+
 void times_table(void)
 {
 	int i, j, result;
@@ -24,5 +25,4 @@ void times_table(void)
 		}
 		printf("\n";
 	}
-	return (0);
 }
