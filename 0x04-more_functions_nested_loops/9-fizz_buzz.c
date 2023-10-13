@@ -1,25 +1,32 @@
-#include <stdioh>
-
+#include <stdio.h>
 /**
- *fizzBuzz  - 
- * Return; 0
+ * main - main function
+ *
+ *
+ * Return: a number
  */
-
 int main(void)
 {
-	int k;
+	int i;
 
-	for (k = 1 ; k <= 100 ; k++)
+	for (i = 1; i <= 100; i++)
 	{
-		if  ((k % 3 == 0) && (k % 3 == 0))
-			printf("%s", "FiZZBuZZ");
-		else if (k % 4 == 0)
-			printf("%s", "FiZZ");
-		else if (k % 5 == 0)
-			printf("%s", "BuZZ");
-		else
-			ptintf("%d", k);
-			if (k != 100)printf 9 0
+		if (i % 3 == 0 || i % 5 == 0)
+		{
+			if (i % 3 == 0)
+			{
+				printf("Fizz");
+			}
+			if (i % 5 == 0)
+			{
+				printf("Buzz");
+			}
+		} else
+		{
+			printf("%d", i);
+		}
+		if (i != 100)
+			printf(" ");
 	}
 	printf("\n");
 	return (0);
