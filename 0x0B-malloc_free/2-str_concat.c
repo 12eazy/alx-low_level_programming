@@ -30,6 +30,6 @@ char *str_concat(char *s1, char *s2)
 	for (k = 0; s1[k] != '\0'; k++)
 		output[k] = s1[k];
 	for (k = 0; s2[k] != '\0'; k++)
-		output[s1len + 1] = s2[k];
+		output[s1len + k] = s2[k];
 	return (output);
 }
