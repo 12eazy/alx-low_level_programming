@@ -3,8 +3,12 @@
 #include <stdlib.h>
 
 /**
- * print_dog - print dog
- * @d: dog to print
+ * print_dog - print information about a dog
+ * @d: The dog struct
+ *
+ * Return: None(only print out date when called)
+ *
+ *
  */
 void print_dog(struct dog *d)
 {
